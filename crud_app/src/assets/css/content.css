@@ -1,0 +1,19 @@
+.content {
+    grid-area: content;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+.content.content-padrao {
+    padding: 15px;
+    overflow-x: scroll !important;    
+}
+/* CSS of ContentTitle */
+.page-title h1 {
+    margin: 0px;
+}
+.page-title h2 {
+    color: lightgrey;
+    margin-top: 5px;
+    font-size: 1.3rem;
+}
